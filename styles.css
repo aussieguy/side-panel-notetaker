@@ -1,0 +1,162 @@
+
+.button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.textarea {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-size: 14px;
+  width: 100%;
+  height: 550px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #04AA6D;
+  margin-right: 10px;
+}
+
+.button1:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4636f4;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.button2:hover {
+  background-color: #4636f4;
+  color: white;
+}
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+  margin-left: 10px;
+}
+
+.button3:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.button4 {
+  background-color: white; 
+  color: black; 
+  border: none;
+  margin-right: 10px;
+}
+
+.button4:hover {
+  background-color: grey;
+  color: white;
+}
+
+.button5 {
+  background-color: white; 
+  color: black; 
+  border: none;
+  margin-left: 10px;
+}
+
+.button5:hover {
+  color: white;
+  background-color: #cbc7c7;
+}
+
+.button5:active {
+  transform: translateY(4px);
+}
+
+.button6 {
+  background-color: white; 
+  color: black; 
+  border: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.button6:hover {
+  color: white;
+  background-color: #cbc7c7;
+}
+
+.button6:active {
+  transform: translateY(4px);
+}
+
+/* Button 7 - speak it button. */
+.button7 {
+  background-color: white; 
+  color: black; 
+  border: none;
+  margin-left: 10px;
+}
+
+.button7:hover {
+  color: white;
+  background-color: #cbc7c7;
+}
+
+.button7:active {
+  transform: translateY(4px);
+}
+
+/* Light Theme */
+.light-theme {
+  background-color: #fff;
+  color: #000;
+}
+
+.light-theme button {
+  background-color: #007bff;
+  color: white;
+}
+
+.light-theme button:hover {
+  background-color: #0056b3;
+}
+
+/* Dark Theme */
+.dark-theme {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-theme button {
+  background-color: #444;
+  color: white;
+}
+
+.dark-theme button:hover {
+  background-color: #222;
+}

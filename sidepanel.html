@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sidepanel notetaker</title>
+  <link rel="stylesheet" href="styles.css">  
+</head>
+<body>
+  <table>
+    <tr>
+      <td><button id="themeToggle" class="button button4 themeButton">Dark Theme</button></td>
+      <td><button type="button" class="button6 reloadIcon"><img src="32px-Refresh_icon.svg.png"></button></td>
+      <td><button id="tooltip-button" type="button" class="button5 copyButton"><img src="Copy-24.png"></button></td>
+      <td><button type="button" class="button7 speakButton"><img src="Megaphone-24.png"></button></td>
+    </tr>
+  </table>
+  <table>
+
+    <tr><td>
+      <textarea id="displayText" class=textarea cols="80" rows="24" autofocus></textarea>  
+    </td></tr>
+    <tr><td>
+      <button class="button button1 saveButton">Save</button>
+      <button class="button button2 reloadButton">Reload</button>
+      <button class="button button3 deleteButton">Delete</button>
+    </td></tr>
+  </table>
+</div>
+  
+  <script src="service-worker.js"></script>
+</body>
+</html>

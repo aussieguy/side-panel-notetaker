@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Side panel notetaker",
+  "version": "1.0",
+  "description": "Add notes to any webpage.",
+  "action": {
+    "default_title": "Click to open sidepanel"
+  },
+  "permissions": [
+    "sidePanel", 
+    "storage",
+    "tabs",
+    "offscreen",
+    "clipboardWrite",
+    "tts"
+  ],
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+B",
+        "mac": "Command+B"
+      }
+    }
+  },
+  "icons": {
+    "16": "images/sidePanel-16.png",
+    "48": "images/sidePanel-48.png",
+    "128": "images/sidePanel-128.png"
+  }
+}
